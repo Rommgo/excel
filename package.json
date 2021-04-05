@@ -1,5 +1,5 @@
 {
-  "name": "exel",
+  "name": "excel",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rommgo/exel.git"
+    "url": "git+https://github.com/Rommgo/excel.git"
   },
   "keywords": [],
   "author": "Rommgo",
@@ -20,7 +20,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rommgo/exel/issues"
+    "url": "https://github.com/Rommgo/excel/issues"
   },
   "homepage": "https://github.com/Rommgo/exel#readme",
   "devDependencies": {
@@ -42,6 +42,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "normalize.css": "^8.0.1"
   }
 }

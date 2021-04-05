@@ -1,4 +1,4 @@
-# Js exel
+# Js excel
 
 ##Webpack (import/export)
  ```

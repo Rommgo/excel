@@ -26,7 +26,7 @@ module.exports = (env, argv) => {
       }),
     ];
     if (isDev) {
-      base.push(new ESLintPlugin(options));
+      base.push(new ESLintPlugin());
     }
     return base;
   };
@@ -49,12 +49,9 @@ module.exports = (env, argv) => {
       },
     },
     devServer: {
-      // contentBase: path.join(__dirname, 'dist'),
-      // compress: true,
       port: 3000,
       open: true,
-      // hot: true,
-      watchContentBase: true,
+      hot: true,
     },
     devtool: isDev ? 'source-map' : false,
     plugins: plugins(),
